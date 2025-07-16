@@ -1,0 +1,10 @@
+public class Dog extends Animal{
+    public Dog(String name, int order) {
+        super(name, order);
+    }
+
+    @Override
+    public String toString() {
+        return "Dog{" + "name='" + getName() + "', order=" + getOrder() + '}';
+    }
+}
